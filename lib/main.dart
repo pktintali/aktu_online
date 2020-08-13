@@ -57,6 +57,7 @@ class _MyHomePageState extends State<MyHomePage>
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: #FFEBEE,
       body: Stack(
         children: <Widget>[
           Container(
@@ -106,12 +107,12 @@ class _MyHomePageState extends State<MyHomePage>
                       img: 'images/Certificate.jpg',
                       text: 'Result',
                       url:
-                          'https://erp.aktu.ac.in/WebPages/OneView/OneView.aspx'),
+                          'https://erp.aktu.ac.in/webpages/oneview/oneview.aspx'),
                   mainCard(
                       img: 'images/AdmitCard.png',
                       text: 'Admit Card',
                       url:
-                          'https://erp.aktu.ac.in/WebPages/public/examination/PrintAdmitCard.aspx'),
+                          'https://erp.aktu.ac.in/webpages/public/examination/PrintAdmitCard.aspx'),
                   mainCard(
                       img: 'images/ExamForm.png',
                       text: 'Syllabus',
